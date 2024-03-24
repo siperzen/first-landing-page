@@ -23,7 +23,7 @@ nav {
     justify-content: space-around;
     background: #1F2937;
     align-items: center;
-    padding: 20px 0px 20px 100px
+    padding: 20px 100px
 }
 
 nav a {
@@ -42,7 +42,7 @@ nav a {
     color: #fff;
     display: flex;
     padding: 90px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
     text-align: left;
@@ -50,11 +50,13 @@ nav a {
 
 .hero-content {
     width: 500px;
+    font-size: 18px
 }
 
 .hero-content h1 {
     font-weight: 900;
-    font-size: 48px
+    font-size: 48px;
+    margin: 0
 }
 
 .hero-content button {
@@ -86,11 +88,10 @@ nav a {
 }
 
 .content-members img {
-    width: 200px;
-    height: 200px;
-    border: 12px;
-    border-color:#3882f6;
-    border-radius: 10px
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 12px
 }
 
 .quote {
